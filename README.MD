@@ -37,5 +37,45 @@ Django - python based framework
 - cd .. navigate outside
 - touch : make a new file
 
-## how to write HTML
+### how to write HTML
 
+- we create elements
+- start tag : content : end tag start tag content end tag
+- enclosing tag - some elements can be written < elementName />
+
+### HTML Elements
+- HTML + CSS - Cascading stylesheet
+- Git operations
+### Element types
+- Inline elements - elements will only occupy as much width space as necessary
+- Block elements - elements will occupy the entire width of the section
+### Attributes
+- More info/ Meta data about an element
+
+- styling resource , identification resource , measurements
+file resource - img, video
+### CSS
+- styling resource - for our HTML Elements
+- CSS Grid/ Css Flexbox - for our layout and structuring webpage
+### Css Styling
+- Decide on the type of css to use a. inline css : usage of the style(applicable to all html elements) attribute directly on the html element to effect a desired styling b. internal css : usage of the style element within the head element to write css syntax inside the html document c. external css : writing css in a css file and linking that css file to a html page using the link element
+### Css syntax
+selector { styling_property : value_property }
+
+## Selectors
+
+- element tagname : style all elements in that html document that use the same name
+- id :: : identification : styling will only be applied to the element indicated with the selected ID. - id attribute #idname { styling_property : value_property }
+- class : bundling up of styling : styling will be applied to all elements bearing the same class name - class attribute .classname { styling_property : value_property }
+### GIT COMMANDS
+## configuring terminals to work with git only use this command once
+- git config --global user.name "Yourgithubusername"
+- git config --global user.email "Yourgithubemailaddress"
+When a project is new , these steps are only done once at the beginning of the git process for the project
+- git init : initializes an empty git folder for version management for your project
+- git remote add origin repository_link : connects the local git folder to the github platform repository
+updates and when project is new after achieving first two steps
+- git status - checks the files that are ready to be saved to github red :not ready , green: ready
+- git add . - adds the files to git for tracking
+- git commit -m "commit message" - special message tagged to every version update
+- git push -u origin master - command that will push the work from the local git folder to the repository on github
