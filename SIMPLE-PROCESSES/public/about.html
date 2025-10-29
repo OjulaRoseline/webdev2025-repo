@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merlin class Home</title>
+    <style>
+        /* 1-make the container div become a grid container */
+        #grid-container {
+            display:grid;
+            grid-template-areas: 
+            'n n n n'
+            's m m m'
+            'f f f f'
+            ;
+        }
+        #navbar{
+            background-color:blue ;
+            grid-area:n ;
+            margin:5px ;
+        }
+        #sideMenu{
+            grid-area: s;
+            margin:5px ;
+
+        }
+        #mainContent{
+            background-color:yellowgreen ;
+            grid-area:m ;
+            margin:5px ;
+
+        }
+        #footer{
+            background-color:blueviolet;
+            text-decoration-color:black ;
+            grid-area: f;
+            margin:5px ;
+
+        }
+        #flex-container{
+            display:flex ;
+            flex-direction:column ;
+            justify-content:space-evenly ;
+        }
+        /* media queries */
+        @media screen and (max-width:768px){
+          #grid-container {
+            display:grid;
+            grid-template-areas: 
+            'n n n n'
+            's m m m'
+            'f f f f'
+            ;   
+        }
+        #footer{
+            background-color: black;
+        }
+    }
+    </style>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div id="grid-container">
+        <div id="navbar">navbar</div>
+        <div id="sideMenu">
+            <div id="flex-container">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+
+            </div>
+        </div>
+        <div id="mainContent">main Content</div>
+        <div id="footer">footer</div>
+
+    </div>
+    
+</body>
+</html>

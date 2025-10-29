@@ -58,8 +58,10 @@ file resource - img, video
 - styling resource - for our HTML Elements
 - CSS Grid/ Css Flexbox - for our layout and structuring webpage
 ### Css Styling
+
 - Decide on the type of css to use a. inline css : usage of the style(applicable to all html elements) attribute directly on the html element to effect a desired styling b. internal css : usage of the style element within the head element to write css syntax inside the html document c. external css : writing css in a css file and linking that css file to a html page using the link element
 ### Css syntax
+
 selector { styling_property : value_property }
 
 ## Selectors
@@ -68,7 +70,9 @@ selector { styling_property : value_property }
 - id :: : identification : styling will only be applied to the element indicated with the selected ID. - id attribute #idname { styling_property : value_property }
 - class : bundling up of styling : styling will be applied to all elements bearing the same class name - class attribute .classname { styling_property : value_property }
 ### GIT COMMANDS
+
 ## configuring terminals to work with git only use this command once
+
 - git config --global user.name "Yourgithubusername"
 - git config --global user.email "Yourgithubemailaddress"
 When a project is new , these steps are only done once at the beginning of the git process for the project
@@ -78,4 +82,12 @@ updates and when project is new after achieving first two steps
 - git status - checks the files that are ready to be saved to github red :not ready , green: ready
 - git add . - adds the files to git for tracking
 - git commit -m "commit message" - special message tagged to every version update
-- git push -u origin master - command that will push the work from the local git folder to the repository on github
+- git push -u origin master - command that will push the work from the local git folder to the repository on github.
+
+### CSS layout
+- CSS "position ,float ,properties
+- html tables
+-  CSS Grid
+
+                                                  navbar                                                            
+side menu                                       main  content       
