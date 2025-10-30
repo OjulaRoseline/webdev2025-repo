@@ -91,3 +91,6 @@ updates and when project is new after achieving first two steps
 
                                                   navbar                                                            
 side menu                                       main  content       
+### HTML and CSS
+- how to write JavaScript
+  
