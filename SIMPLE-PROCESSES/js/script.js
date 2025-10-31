@@ -13,4 +13,14 @@
             document.getElementById('mainContent').appendChild(newDiv)
                  buttonClick.disabled = true
             })
+            const contactUs = document.getElementById("contactForm")
+            contactUs.addEventListener("submit",function(){
+                const email = document.getElementById("email").value
+                const phone = document.getElementById("phoneNo").value
+                const fname = document.getElementById("fname").value
+                const msg ="The persona" + fname + "email is:" + email + "phone:" + phone
+                const msgdiv =document.createElement("p")
+                msgdiv.innerHTML=msg
+                document.getElementById("footer").appendChild(msgdiv)
+            })
         })
